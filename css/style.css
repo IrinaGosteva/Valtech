@@ -421,8 +421,9 @@ body {
   .slicknav_menu {
     display: inline-block;
     position: absolute;
-    top: 7px;
-    right: 7px; }
+    top: 12px;
+    right: 0px;
+    padding: 0; }
   .header-nav {
     display: none; } }
 
