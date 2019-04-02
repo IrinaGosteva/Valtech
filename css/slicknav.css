@@ -57,7 +57,7 @@
   .slicknav_nav ul {
     display: block;
     width: 100%;
-    top:14px;
+    top: 14px;
     background: #00C8FF; }
   .slicknav_nav li {
     display: block;
@@ -117,16 +117,14 @@
   .slicknav_nav .slicknav_row {
     padding: 5px 10px;
     margin: 2px 5px;
-  .btn{
-        color:#fff;
-        }}
-    .slicknav_nav .slicknav_row:hover {
+    }
+/*    .slicknav_nav .slicknav_row:hover {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
       border-radius: 6px;
       background: #ccc;
       color: #fff;
-       }
+       }*/
   .slicknav_nav a {
     padding: 5px 10px;
     margin: 2px 5px;
@@ -138,11 +136,11 @@
     color: white; 
      }  
     }
-    .slicknav_nav a:hover {
+/*    .slicknav_nav a:hover {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
       border-radius: 6px;
-      color: #00C8FF; }
+      color: #00C8FF; }*/
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {
