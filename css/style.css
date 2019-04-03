@@ -141,15 +141,10 @@ body {
 .header-controls {
   margin-left: auto;
   align-items: center; }
-  .header-controls .btn:hover {
-    color: white; }
 
 .header-nav {
   font-size: 16px;
   color: #202020; }
-
-.header-nav li a:hover {
-  color: #00C8FF; }
 
 .header-nav li {
   display: inline-block; }
@@ -166,9 +161,6 @@ body {
   text-align: center;
   color: #FFFFFF;
   background: #00C8FF; }
-
-.btn:hover {
-  background: rgba(0, 200, 255, 0.8); }
 
 /*header end*/
 /*inner-title*/
@@ -238,12 +230,6 @@ body {
     overflow: hidden;
     width: 50%; }
 
-.services-item:hover .ourservices-img-icon {
-  color: rgba(0, 200, 255, 0.6); }
-
-.services-item:hover h5 a {
-  color: #00C8FF; }
-
 .services-title {
   font-size: 28px;
   line-height: normal;
@@ -269,8 +255,6 @@ body {
       align-items: center; }
       .ourclients .client .one-client a svg {
         margin: 0 auto; }
-    .ourclients .client .one-client a:hover .client-icon-svg {
-      fill: black; }
 
 /*ourclient end*/
 /*ourteam start*/
@@ -308,12 +292,14 @@ body {
 
 .footer-social li {
   display: inline-block; }
-  .footer-social li:hover a {
-    color: black; }
   .footer-social li + li {
     padding-left: 35px; }
 
 /*/*.footer end*/
+@media (max-width: 1340px) {
+  .container {
+    width: 1000px; } }
+
 @media (max-width: 1340px) {
   .container {
     width: 1000px; } }
@@ -444,3 +430,19 @@ body {
     margin-bottom: 10px; }
   .footer-social {
     font-size: 26px; } }
+
+@media (min-width: 766px) {
+  .header-controls .btn:hover {
+    color: white !important; }
+  .header-nav li a:hover {
+    color: #00C8FF; }
+  .btn:hover {
+    background: rgba(0, 200, 255, 0.8); }
+  .services-item:hover .ourservices-img-icon {
+    color: rgba(0, 200, 255, 0.6); }
+  .services-item:hover h5 a {
+    color: #00C8FF; }
+  .one-client a:hover .client-icon-svg {
+    fill: black; }
+  .footer-social li:hover a {
+    color: black; } }
