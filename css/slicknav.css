@@ -131,11 +131,11 @@
     text-decoration: none;
     font-family: 'abel';
     color: #202020;
-    font-size: 20px; }
-    .slicknav_nav .btn { 
+    font-size: 20px; 
+  }
+  .slicknav_nav .btn { 
     color: white; 
      }  
-    }
 /*    .slicknav_nav a:hover {
       -webkit-border-radius: 6px;
       -moz-border-radius: 6px;
