@@ -182,12 +182,20 @@ body {
   color: #4F4F4F; }
 
 .big-btn {
-  border-radius: 10px;
-  font-size: 28px;
-  padding: 12px 51px 13px 51px;
-  border-width: 1px;
+  background: linear-gradient(to top, #fff 5%, #00C8FF);
+  border: 0;
+  padding: 0;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
-  border: 1px solid #ffff; }
+  border-radius: 10px;
+  font-size: 28px; }
+  .big-btn .border-linear-gradient {
+    padding: 1px;
+    background: #00c8ff;
+    border-radius: 10px;
+    display: inline-block;
+    border-radius: 9px;
+    padding: 10px 50px;
+    margin: 0 1px 1px 1px; }
 
 /*inner-title end*/
 /*ourservices start*/
@@ -417,12 +425,19 @@ body {
     width: 100%; }
   .ourclients .client .one-client {
     width: 100%; }
-  .ourteam-items .ourteam-item {
-    display: inline-flex;
-    width: 100%;
-    justify-content: center; }
+  .ourteam-items {
+    padding-top: 30px; }
+    .ourteam-items .ourteam-item {
+      display: inline-flex;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 30px; }
+      .ourteam-items .ourteam-item .our-team-person-info {
+        width: 30%; }
   .inner .big-btn {
     width: 100%; }
+    .inner .big-btn .border-linear-gradient {
+      width: calc( 100% - 2px); }
   .footer .container {
     flex-direction: column; }
   .footer .container img {
@@ -438,9 +453,11 @@ body {
     color: #00C8FF; }
   .btn:hover {
     background: rgba(0, 200, 255, 0.8); }
-  .services-item:hover .ourservices-img-icon {
-    color: rgba(0, 200, 255, 0.6); }
-  .services-item:hover h5 a {
+    .btn:hover .border-linear-gradient {
+      background: rgba(0, 200, 255, 0.8); }
+  .big-btn:hover {
+    background: linear-gradient(to top, #fff 5%, #00C8FF); }
+  .services-item:hover h5 {
     color: #00C8FF; }
   .one-client a:hover .client-icon-svg {
     fill: black; }
